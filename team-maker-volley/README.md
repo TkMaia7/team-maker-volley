@@ -1,56 +1,17 @@
-# Welcome to your Expo app 👋
+# 🏐 Voleibol: Sorteio (Team Maker)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido em React Native e Expo para gerenciar, armazenar e equilibrar equipes de voleibol com base no nível de habilidade de cada jogador. Ideal para organizar as peladas e garantir jogos justos, lidando automaticamente com limites de vagas e filas de espera.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+- **CRUD de Jogadores:** Adicione, edite e remova atletas do plantel.
+- **Sistema de Níveis:** Classificação de 1 (Nunca jogou) a 6 (Craque) para cada jogador.
+- **Algoritmo de Balanceamento:** Distribuição que divide os jogadores buscando a menor diferença possível na soma de habilidades entre os times.
+- **Gestão de Vagas:** Definição dinâmica do número de equipes e de jogadores por time. Jogadores excedentes são automaticamente alocados em uma Fila de Espera.
+- **Exportação Fácil:** Botão para copiar a lista final de times e espera diretamente para a área de transferência (pronto para colar no WhatsApp).
 
+## 📱 Como Executar o Projeto
+
+1. Clone o repositório:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/TkMaia7/team-maker-volley.git](https://github.com/TkMaia7/team-maker-volley.git)
